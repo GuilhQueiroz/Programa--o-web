@@ -20,6 +20,8 @@ a {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -62,20 +64,59 @@ body {
         line-height: 230px;
         font-weight: 100;
     }
-    nav {
-        position: absolute;
-        bottom: 0;
-        height: 60px;
-        line-height: 60px;
-        width: 100%;
-        background: rgba(0,0,0,.1);
-        a {
-            color: white;
-            display: inline-block;
-            padding: 10px 15px;
-            line-height: 1;
-            text-decoration: none;
-            
-        }
-    }
   }
+
+  nav {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background: rgba(0,0,0,.1);
+}
+
+    nav a {
+    color: white;
+    display: inline-block;
+    maring: 0 10px;
+    padding: 10px 15px;
+    line-height: 1;
+    text-decoration: none;
+ 
+}
+
+.fixedTop {
+    position:fixed;
+    top: 0px;
+
+}
+
+.tutorialJogo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.tutorialJogo h2 {
+    margin-top: 0;
+}
+
+.tutorialJogo p {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-right: 50px;
+}
+
+.tutorialJogo img {
+    margin-right: 20px;
+    max-width: 300px;
+    height: 200px;
+    vertical-align: middle;
+}
+
+.tutoriais {
+    
+}
