@@ -1,15 +1,16 @@
-ul {    
+.menu_link {    
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background: #5393f3;
 
+    li {
+        float: left;
+    }
 }
 
-li {
-    float: left;
-}
+
 
 a {
     display: block;
@@ -22,9 +23,12 @@ a {
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+    font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #1a1d21;
+    text-rendering: optimizeLegibility;
 }
 
 .footer {
@@ -111,12 +115,194 @@ body {
 }
 
 .tutorialJogo img {
-    margin-right: 20px;
-    max-width: 300px;
+    width: 300px;
     height: 200px;
-    vertical-align: middle;
+    margin-right: 50px;
 }
 
-.tutoriais {
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+  }
+  td,
+  th {
+    border: 1px solid black;
+    padding: 10px 20px;
+  }
+
+.exemploApex {
+  color: #1a1d21;
+  background-color: #e3f4f9;
+  border-color: #5bc0de;
+  box-sizing: border-box;
+  padding: calc(18px * 1.6) 20px;
+  margin-bottom: calc(18px * 1.6);
+  border-left-width: 5px;
+  border-left-style: solid;
+
+  font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: #1a1d21;
+  text-rendering: optimizeLegibility;
+  .exemploCor {
+    color: #5bc0de;
+  }
+}
+
+
+  .tabelasElos {
     
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+ 
+  }
+
+.ranqueBody {
+    border-bottom: 1px solid #D1D1D1;
+    margin-left: 0;
+    padding: 30px 0 0;
+    padding-bottom: 0px;
+    position: relative;
+    word-wrap: break-word;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    h1 {
+        border-bottom: 1px solid #D1D1D1;
+        margin-left: 0;
+        padding: 30px 0 0;
+        padding-bottom: 0px;
+        position: relative;
+        word-wrap: break-word;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.tabelas-elos h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.curiosidades {
+  font-size: 16px;
+}
+
+.elo-alto {
+    text-align: center;
+}
+
+.tabelaApeax  {  
+  display: block;
+  border-top: 1px solid #d2d2d2;
+  padding: 20px 0;
+  margin-top: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 14px;
+  line-height: 24px;
+
+}
+
+.tabelaApex {
+    th {
+        text-align: left;
+      }
+      
+      .table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: calc(18px * 1.6);
+        font-size: 14px;
+        line-height: 24px;
+      }
+      
+      .tabelaApex th {
+        font-size: 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #8b9199;
+      }
+      
+      .tabelaApex th,
+      .tabelaApex td {
+        padding: 8px 40px;
+        vertical-align: top;
+      }
+      
+      .tabelaApex td {
+        border-top: 1px solid #ddd;
+      }
+      
+      .tabelaApex thead th {
+        vertical-align: bottom;
+      }
+      
+      .tabelaApex tbody + tbody {
+        border-top: 1px solid #ddd;
+      }
+      
+      .tabelaApex .tabelaApex {
+        background-color: #fff;
+      }
+      
+      .tabelaCor-apex th {
+        background-color: #e4373c;
+        color: #fff;
+      }
+}
+
+
+.tutoriais {
+    border-bottom: 1px solid #D1D1D1;
+    margin-left: 0;
+    padding: 30px 0 0;
+    padding-bottom: 0px;
+    position: relative;
+    word-wrap: break-word;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.artigo-tutorial {
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 1px;
+
+    border-bottom: 1px solid #D1D1D1;
+    margin-left: 0;
+    padding: 30px 0 0;
+    padding-bottom: 0px;
+    position: relative;
+    word-wrap: break-word;
+    
+}
+
+.ranqueBody {
+  box-sizing: border-box;
+  display: block;
+  float: none;
+  line-height: 28.8px;
+  position : static;
+  z-index: auto;
+  flex: 1 1 100px;
+  max-width: 680px;
 }
