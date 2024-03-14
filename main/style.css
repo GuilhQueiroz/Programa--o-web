@@ -266,34 +266,26 @@ table {
 
 
 .tutoriais {
-    border-bottom: 1px solid #D1D1D1;
-    margin-left: 0;
-    padding: 30px 0 0;
-    padding-bottom: 0px;
-    position: relative;
-    word-wrap: break-word;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  box-sizing: content-box;
+  display: block;
+  float: none;
+  line-height: 18.4px;
+  position : static;
+  z-index: auto;
+
+  width: 100%;
+  padding-right: 15px;
+  margin: 0;
+
+  flex: 1 1 100%;
+  min-width: 0px;
+
+  
 }
 .artigo-tutorial {
-    overflow: hidden;
-    margin-bottom: 30px;
-
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 10px;
-    letter-spacing: 1px;
-
-    border-bottom: 1px solid #D1D1D1;
-    margin-left: 0;
-    padding: 30px 0 0;
-    padding-bottom: 0px;
-    position: relative;
-    word-wrap: break-word;
-    
+  flex-direction: row;
+  display: flex;
+  
 }
 
 .ranqueBody {
@@ -306,3 +298,234 @@ table {
   flex: 1 1 100px;
   max-width: 680px;
 }
+
+.artigos--tutorial {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.container-image {
+  
+}
+
+.thumb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-style: none;
+}
+
+.style-info {
+  align-self: center;
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 75%;
+}
+
+.style-information {
+  max-width: 350px;
+  color:inherit;
+}
+
+.style-title {
+  font-family: "Spiegel", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  margin-top: 0.3125rem;
+  line-height: 1.2;
+  margin-bottom: 0px;
+  letter-spacing: 0.75px;
+  font-weight: 800;
+  color: inherit;
+}
+
+.style-description {
+  line-height: 1.5;
+  margin: 10px 0px;
+  font-size: 0.75rem;
+}
+
+.content-apresentacao {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
+
+  min-width: 0px;
+}
+
+.title-apresentacao {
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 0.05em;
+  font-family: "Beaufort for LOL", "Arial Narrow", serif;
+  
+  line-height: 0.85;
+}
+
+.description-apresentacao {
+  color: #fff;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-size: 0.985rem;
+  margin: 20px auto 0px;
+  max-width: 660px;
+  font-family: "spiegel", "Arial Narrow", Arial, sans-serif;
+}
+
+.bg-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -100;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/bg-video.jpg) 
+  no-repeat center center;
+  
+}
+
+.artigos-jogo {
+  box-sizing: border-box;
+  display: block;
+  float: none;
+  line-height: 28.8px;
+  position: static;
+  z-index: auto;
+  flex: 1 1 100px;
+  max-width: 680px;
+
+  word-wrap: break-word;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 0px;
+  padding: 30px 0 0;
+}
+
+.artigos--title {
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-size: 0.985rem;
+  margin: 20px auto 0px;
+  max-width: 660px;
+  font-style: italic;
+  font-family: "spiegel", "Arial Narrow", Arial, sans-serif;
+}
+
+.artigos--p {
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-size: 0.985rem;
+  margin: 20px auto 0px;
+  max-width: 660px;
+  font-family: "spiegel", "Arial Narrow", Arial, sans-serif;
+}
+
+.artigo-section {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+/*
+  .topico-section {
+    overflow: hidden;
+    white-space: nowrap;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+*/
+.li-topico-section {
+  box-sizing: content-box;
+  white-space: normal;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding-right: 10%;
+  transform: translate(0%);
+}
+
+.section-tutorial {
+  position: relative;
+  z-index: 1;
+  padding: 120px 0px;
+
+}
+
+.div-tutorial {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.div--tutorial {
+  flex: 1 1 100%;
+  min-width: 0px;
+}
+
+.container-section-tutorial {
+  align-items: center;
+  width: calc(100% - 120px);
+  max-width: 1560px;
+  margin: 55px auto 0px;
+  position: relative;
+  display: flex;
+  -moz-box-align: center;
+}
+
+.style_section-tutorial {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+/*
+.style_assetContainer {
+  flex: 1 1 auto;
+  min-width: 0px;
+  position: relative;
+}
+
+.style_olContainer {
+  position: relative;
+  list-style: none;
+  margin: 0px;
+  padding: 56.25% 0px 0px;
+  width: 100%;
+}
+*/
+
+.title-section-tutorial { 
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-family: "spiegel", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+
+.habilidades-div {
+  position: absolute;
+  inset: 0px;
+}
+
+.style-content-title {
+  flex: 1 1 100%;
+  min-width: 0px;
+}
+
