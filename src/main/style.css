@@ -10,8 +10,6 @@
     }
 }
 
-
-
 a {
     display: block;
     color: white;
@@ -152,10 +150,8 @@ table {
   }
 }
 
-
   .tabelasElos {
     
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,7 +259,6 @@ table {
         color: #fff;
       }
 }
-
 
 .tutoriais {
   box-sizing: content-box;
@@ -381,6 +376,7 @@ table {
 
 .bg-video {
   position: absolute;
+  top: 0;
   right: 0;
   bottom: 0;
   width: 100%;
@@ -508,6 +504,23 @@ table {
   width: 100%;
 }
 */
+
+.image-galery {
+  width: 100%;
+}
+.imagem--style {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: auto;
+  margin-left: calc(50vh - 750px);
+  top: 0px;
+  bottom: 0px;
+  border: 0px;
+}
 
 .title-section-tutorial { 
   text-transform: uppercase;
