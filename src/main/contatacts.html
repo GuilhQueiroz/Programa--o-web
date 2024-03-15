@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Contacts</title>
-    <link rel="icon" href="logoLolDoZero.jpeg">
+    <link rel="icon" href="./imagem/logoLolDoZero.jpeg">
 </head>
 <body>
     <header class="menu_header">
@@ -17,27 +17,28 @@
             <a href="contatacts.html">Contatos</a>
         </nav>
     </header>
-    <h1>Contatos</h1>
-    <p>Telefone: (11) 9999-9999</p>
-    <p>Email:teste@test.com</p>
+    <h1 style="text-align: center;">Contatos</h1>
+    <p style="text-align: center;">Telefone: (11) 9999-9999</p>
+    <p style="text-align: center;">Email:teste@test.com</p>
     <div>
-        <form>
-            <fieldset>
-              <legend>Qual a sua Intenção</legend>
-              <p>
-                <input type="radio" name="size" id="size_1" value="small" />
-                <label for="size_1">Aprender sobre o jogo</label>
-              </p>
-              <p>
-                <input type="radio" name="size" id="size_2" value="medium" />
-                <label for="size_2">Saber os termos mais usados</label>
-              </p>
-              <p>
-                <input type="radio" name="size" id="size_3" value="large" />
-                <label for="size_3">Apenas curiosidade sobre o site</label>
-              </p>
-            </fieldset>
-          </form>
+      <form action="javascript:()" method="post">
+        <ul>
+          <li>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="user_nome" placeholder="Digite Seu Nome">
+          </li>
+          <li>
+            <label for="idade">Idade:</label>
+            <input type="idade" id="idade" name="user_idade" placeholder="Digite Sua Idade">
+          </li>
+          <li>
+            <label for="msg">Mensagem</label>
+            <textarea id="msg" name="user_msg" placeholder="Diga O Motivo Do Seu Interesse"></textarea>
+          </li>
+          <li class="button">
+            <button type="submit">Enviar</button>
+        </ul>
+      </form>
           
     </div>
     <section>
