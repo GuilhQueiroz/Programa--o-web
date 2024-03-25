@@ -8,6 +8,7 @@ Este é o projeto de site educaional. O projeto está sendo realizado em grupo c
 
 ### Prévia
 
+* Você pode acessar esse site e testa-lo através deste [link](https://guilhqueiroz.github.io/Programa--o-web/src/main/index.html)
 <img src="https://drive.google.com/uc?export=download&id=1Cf6h9YRLxBZfoUQ96ikaaTnk6iBSDXYi">
 
 ### Colaboradores:
