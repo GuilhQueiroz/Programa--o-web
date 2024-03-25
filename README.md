@@ -7,6 +7,8 @@ Este é o projeto de site educaional. O projeto está sendo realizado em grupo c
 </div>
 
 ### Prévia
+
+* Você pode acessar esse site e testa-lo através deste [link]()
 <img src="https://drive.google.com/uc?export=download&id=1Cf6h9YRLxBZfoUQ96ikaaTnk6iBSDXYi">
 
 ### Colaboradores:
