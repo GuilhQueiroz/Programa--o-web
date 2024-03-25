@@ -1,5 +1,5 @@
 ## Site 
-Este é o projeto de site. O projeto está sendo realizado em grupo como parte da disciplina programar web frontend da Unifacisa.
+Este é o projeto de site educaional. O projeto está sendo realizado em grupo como parte da disciplina programar web frontend da Unifacisa.
 
 ## Tecnologias Utilizadas 
 <div>
