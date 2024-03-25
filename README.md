@@ -7,7 +7,6 @@ Este é o projeto de site. O projeto está sendo realizado em grupo como parte d
 </div>
 
 ### Prévia
-* Você pode acessar esse site e testa-lo através [link] ()
 <img src="https://drive.google.com/uc?export=download&id=1Cf6h9YRLxBZfoUQ96ikaaTnk6iBSDXYi">
 
 ### Colaboradores:
